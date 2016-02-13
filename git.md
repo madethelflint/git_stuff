@@ -11,17 +11,12 @@ System that records changes to files or a set of files over time so that you can
 
 ---
 ## Why?
-
 - undo a change
-- prevent lost code or having a backup that is too old
-- maintain multiple versions of a product
-- to see the difference between different versions of your code
-- prove that a particular change broke or fixed a piece of code
-- see the history of some code
-- submit a change to someone else's code
-- share your code, or let other people work on your code
-- see how much work is being done, and where, when and by whom
 - experiment with a new feature without interfering with working code
+- maintain multiple versions of a product
+- prove that a particular change broke or fixed a piece of code
+- see the history of some code, accountability
+- submit a change to someone else's code
 
 ---
 ## Points
@@ -38,15 +33,14 @@ System that records changes to files or a set of files over time so that you can
 
 ```
 apt-get install git-core
-```
 
-```
 brew install git
-```
 
 ```
-https://desktop.github.com
-```
+[http://git-scm.com/download/win](http://git-scm.com/download/win)
+
+[https://desktop.github.com](https://desktop.github.com)
+
 
 ---
 ##Config
@@ -57,6 +51,13 @@ git config --global user.email your.email@example.com
 ```
 
 ---
+
+## github
+
+let's go ahead and setup accounts
+
+---
+
 ## ssh - optional
 
 ```
@@ -68,6 +69,9 @@ pbcopy < my_key.pub
 
 cat my_key.pub
 ```
+
+go to github account page -> ssh
+
 ---
 
 ## Common Commands
@@ -88,36 +92,6 @@ git status
 git checkout
 git branch
 ```
-
----
-
-## Walkthrough
-### Getting Started
-
-- Desktop app: go to website, click button :)
-- CLI: ``` git clone git@github.com:cltmobilemeetup/introductions.git optional_dir_name```
-- ``` git log ```
-- Open the project using your favorite text editor/IDE
-
-*mention .gitignore*
-
----
-## Walkthrough
-
-### Making changes
-- Add your_name.md --- [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-  - Include your name and a few interesting things about your self
-- Add your name as a link to readme.md
-- Add a photo if you want (images directory)
-
----
-
-## Walkthrough
-### Viewing changes
-
--  ``` git status ```
-- ``` git diff ```
-- let's look @ github app
 
 ---
 
@@ -226,6 +200,36 @@ git commit -am "sample commit message"
 
 ---
 
+## Walkthrough
+### Getting Started
+
+- Desktop app: go to website, click button :)
+- CLI: ``` git clone git@github.com:cltmobilemeetup/introductions.git optional_dir_name```
+- ``` git log ```
+- Open the project using your favorite text editor/IDE
+
+*mention .gitignore*
+
+---
+## Walkthrough
+
+### Making changes
+- Add your_name.md --- [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  - Include your name and a few interesting things about your self
+- Add your name as a link to readme.md
+- Add a photo if you want (images directory)
+
+---
+
+## Walkthrough
+### Viewing changes
+
+-  ``` git status ```
+- ``` git diff ```
+- let's look @ github app
+
+---
+
 ##github
 ### pull requests
 
@@ -236,3 +240,11 @@ readme.md
       - setup, license, contributing
 
 contributions.md
+
+---
+
+## Resources
+
+[https://try.github.io](https://try.github.io)
+
+[https://progit.org/](https://progit.org/)
