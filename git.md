@@ -1,15 +1,14 @@
 #Intro to Git
 ## Rachel Parsons
-### @pinkeerach
-#### Cardinal Solutions
+## @pinkeerach
 
-![inline 100%](CardinalLogo_color.png)
+![right 100%](CardinalLogo_color.png)
+
 
 ---
-## Version Control
-### What is it?
+## What is Version Control?
 
-System that records changes to files or a set of files over time so that you can recall specific versions later.
+A system that records changes to files *over time* so that you can recall specific versions later.
 
 ---
 ## Why?
@@ -23,28 +22,36 @@ System that records changes to files or a set of files over time so that you can
 ^ experiment without impacting working code; blame bugs on commits and prove fixes
 
 ---
-## Points
+## Git 
 
-- Distributed instead of centralized (SVN, TFS, etc.)
+# [fit]noun, BRITISH, informal
+# [fit]an unpleasant or contemptible person.
+# [fit]plural: gits 
+
+
+---
+## Git
+
+- Distributed 
+  - Not centralized like SVN, CVS, etc.
   - No single point of failure
-  - Every developer has a full history of the entire project
+  - Every developer has a full history 
 - Not just for big teams
 
 ---
+## What about Github?
 
 #[fit] Github != git
 
 ---
 
-## Installing
+## Installing Git
+
 
 ```
-apt-get install git-core
-
 brew install git
 
 ```
-[http://git-scm.com/download/win](http://git-scm.com/download/win)
 
 [https://desktop.github.com](https://desktop.github.com)
 
